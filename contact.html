@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yum! - Contact</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container-field">
+
+
+
+<!--HEADER SECTION - LEFT and RIGHT navbar with the logo bewteen them-->
+
+        <div class="row header">
+            <div class="col-sm-5 navbar leftmenu">
+                <ul class="row nolist">
+                    <li class="col-sm-6"><a href="index.html" class="menulink">Welcome</a></li>
+                    <li class="col-sm-6"><a href="menu.html" class="menulink">Menu</a></li>
+                </ul>
+            </div>
+            
+            <h1 class="col-sm-2 title"><a href="index.html">[TITLE]</a></h1>
+
+            <div class="col-sm-5 navbar rightmenu">
+                <ul class="row nolist">
+                    <li class="col-sm-4"><a href="pictures.html" class="menulink">Pictures</a></li>
+                    <li class="col-sm-4"><a href="restaurants.html" class="menulink">Restaurants</a></li>
+                    <li class="col-sm-4"><a href="contact.html" class="menulink">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+<!--CONTACT FORM-->
+
+        <div class="row"> 
+            <div class="col-sm-push-3 col-sm-9">
+                <h3>Contact us!</h3>
+            </div>
+            <div class="col-sm-push-3 col-sm-6">
+
+                        <form>
+
+                            <div class="form-group">
+                                <label for="name">First and Last Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your name...">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your email...">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select name="subject" id="subject" class="form-control">
+                                    <option>Reservation</option>
+                                    <option>Saying hello</option>
+                                    <option>Complaint</option>
+                                    <option>Special demands</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+
+                            <div class="text-area">
+                                <label for="message">Your message:</label>
+                                <textarea id="message" class="form-control" cols="5" rows="3" placeholder="Your message here..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-default">Send!</button>
+                        </form>
+            </div>
+        </div>
+
+<!--FOOTER including links to social networks-->
+
+        <div class="row footer">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-3"><a href="http://www.facebook.com" target="_blank"><img src="assets/images/social-1_logo-facebook.svg" alt="Facebook"></a></div>
+                    <div class="col-sm-3"><a href="http://www.instagram.com" target="_blank"><img src="assets/images/social-1_logo-instagram.svg" alt="Instagram"></a></div>
+                    <div class="col-sm-3"><a href="http://www.twitter.com" target="_blank"><img src="assets/images/social-1_logo-twitter.svg" alt="Twitter"></a></div>
+                    <div class="col-sm-3"><a href="http://www.google.com" target="_blank"><img src="assets/images/social-1_logo-google-plus.svg" alt="Google+"></a></div>
+                </div>
+            </div>
+            <div class="col-sm-12 footerinfo">&copy; Matt Nannetti - This is a mock-up site, as part of a BeCode project. You're awesome.</div>
+        </div>
+    </div>
+    
+</body>
+</html>
