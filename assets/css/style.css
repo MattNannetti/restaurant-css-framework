@@ -72,10 +72,12 @@ a:link {
 
   .nolist {
       list-style: none;
+      padding: 0 0 0 0;
   }
 
   .squarelist {
     list-style: square;
+    padding: 0 0 0 0;
   }
 
   h3 {
@@ -107,6 +109,7 @@ a:link {
 }
 
 h1 {
+    
     margin: 0px 0px;
     padding: 0px 0px;
     font-family: defyinggravity;
@@ -226,10 +229,26 @@ h1 {
 
 
 
-@media  only screen and (max-width: 700px)  {
+@media  only screen and (max-width: 600px)  {
 
     h1{
         font-size: 3em;
+    }
+
+}      
+
+@media  only screen and (min-width: 601px) and (max-width: 1149px)  {
+
+    h1{
+        font-size: 4em;
+    }
+
+}        
+
+@media  only screen and (min-width: 1150px)  {
+
+    h1{
+        font-size: 5em;
     }
 
 }        
