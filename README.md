@@ -11,8 +11,8 @@ I've been working on this project for a couple of days at the end of June 2020.
 This had to be done solo, so I'm the sole contributor.
 
 #### Tools -
-- HTML5
-- CSS 3
+- HTML
+- CSS
 - Bootstrap
 - JQuery
 
