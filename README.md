@@ -1,4 +1,4 @@
-#The [THING](https://mattnannetti.github.io/restaurant-css-framework/)
+# The [THING](https://mattnannetti.github.io/restaurant-css-framework/)
 
 #### What -
 The THING is a burger restaurant mock-up website. 
