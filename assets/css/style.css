@@ -79,6 +79,10 @@ a:link {
       padding: 0 0 0 0;
   }
 
+  .menulist {
+      list-style: none;
+  }
+
   .squarelist {
     list-style: square;
     padding: 0 0 0 0;
