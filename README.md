@@ -1,16 +1,22 @@
-# THING
+# The [THING](https://mattnannetti.github.io/restaurant-css-framework/)
 
-#### What
+#### What -
 The THING is a burger restaurant mock-up website. 
 This was created as part of my training at BeCode Brussels, specifically aiming to practise Bootstrap.
 
-#### When
+#### When -
 I've been working on this project for a couple of days at the end of June 2020.
 
-#### Who
+#### Who -
 This had to be done solo, so I'm the sole contributor.
 
-#### Some thoughts
+#### Tools -
+- HTML
+- CSS
+- Bootstrap
+- JQuery
+
+#### Some thoughts -
 
 This was a fun project to work on. Pretty much the first website I got to put together all by myself,
 and that was quite satisfactory. I'm not mad at the result either :-)
@@ -21,6 +27,6 @@ and that was quite satisfactory. I'm not mad at the result either :-)
 https://mattnannetti.github.io/restaurant-css-framework/
 
 
-## License
+## Licenses
 
 All pictures are royalty-free and from [Pixabay](https://pixabay.com/)
